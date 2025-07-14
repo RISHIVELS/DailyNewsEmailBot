@@ -2,7 +2,7 @@ name: Daily News Email Sender
 
 on:
   schedule:
-    - cron: '44 15 * * *' 
+    - cron: '5 1 * * *'
   workflow_dispatch:     # optional: allows manual trigger
 
 jobs:
